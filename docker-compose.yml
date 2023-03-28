@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  djangocapstone:
+    image: djangocapstone
+    build:
+      context: .
+      dockerfile: ./Dockerfile
